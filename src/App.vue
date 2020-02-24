@@ -1,13 +1,22 @@
 <template>
   <div id="app">
     <div id="nav">
-      <!-- <Header /> -->
+      <Header />
       <!-- <router-link to="/login">Login</router-link> |
       <router-link to="/signup">Signup</router-link> -->
     </div>
     <router-view />
   </div>
 </template>
+
+<script>
+// import Header from '../src/components/Header.vue'
+export default {
+  //  components: {
+  //   Header
+  // }
+}
+</script>
 
 <style>
 #app {

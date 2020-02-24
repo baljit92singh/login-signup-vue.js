@@ -7,11 +7,11 @@ import ResetPassword from '../components/ResetPassword.vue'
 Vue.use(VueRouter)
 
 const routes = [
-  // {
-  //   path: '/',
-  //   name: 'Login',
-  //   component: Login
-  // },
+  {
+    path: '/',
+    name: 'Login',
+    component: Login
+  },
   {
     path: '/login',
     name: 'Login',
